@@ -20,19 +20,5 @@ public class Main {
 
         List<User> users = new ArrayList<>(Arrays.asList(u1, u2, u3, u4, u5, u6, u7, u8, u9, u10));
 
-        //Вывести имена всех Users мужского пола младше 50 лет, фамилия которые не заканчиваются на -ов, -ев.
-
-
-        Library library = new Library();
-        //Получить список всех книг, взятых читателями. Список не должен содержать дубликатов (книг одного автора, с одинаковым названием и годом издания).
-        List<Book> bookList =
-
-        System.out.println(bookList);
-
-        //Узнать наибольшее число книг, которое сейчас на руках у читателя.
-        Integer reduce =
-
-        System.out.println(reduce);
-
     }
 }
